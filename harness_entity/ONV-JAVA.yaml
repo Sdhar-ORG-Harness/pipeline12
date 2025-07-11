@@ -1,0 +1,20 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: onv_service
+name: ONV-JAVA
+owner: SDhar
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group/sample-group
+metadata:
+  description: This is the description of the file.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/pipeline12/blob/main/gen-code.yaml
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample
